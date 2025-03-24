@@ -202,6 +202,9 @@ header{
 }
 
 /* trested */
+.trust{
+  padding-top: 0;
+}
 
 .trust .t-box {
   display: flex;
