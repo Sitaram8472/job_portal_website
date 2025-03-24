@@ -147,6 +147,61 @@ header{
 
 }
 
+.feature .fe-box{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.feature .fe-box div{
+  width: 200px;
+}
+.feature .fe-box img{
+  width: 50px;
+  margin-top: 3rem;
+}
+.jobs .jobs-id{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+}
+.jobs .jobs-id li{
+  padding: 20px 40px;
+  cursor: pointer;
+  color: #000;
+}
+.jobs .jobs-id li.active{
+  background-color: #51a995;
+  color: #fff;
+}
+.jobs .jlist{
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: 1px solid #ccc;
+  align-items: center;
+  justify-content: start;
+  color: #000;
+  padding: 1rem 1rem;
+}
+.jobs .jlist.delete{
+  display: none;
+}
+.jobs .jlist:hover{
+  background-color: #ecf1ee;
+}
+.jobs .jlist img{
+  width: 40px;
+}
+.jobs .jlist h3{
+  padding-bottom: 0;
+}
+
+
+
 
 @media(max-width: 699px){
   #menu{
@@ -203,5 +258,36 @@ header{
   .h-right{
     display: none;
   }
+  .feature .fe-box div{
+    width: 40%;
+  }
 
+  .jobs .jobs-id{
+    position: relative;
+    width: 100%;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .jobs .jobs-id li{
+    padding: 20px 30px;
+    text-wrap: nowrap;
+  }
+  .jobs-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+  .jobs .jlist{
+    width: 48%;
+    margin-top: 1rem;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 15px;
+    padding: 2rem 1rem;
+    text-align: center;
+    justify-items: center;
+  }
+  
 }
