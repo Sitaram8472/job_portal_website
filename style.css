@@ -75,7 +75,7 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 70px;
+  height: 80px;
 }
 
 #navbar .logo{
@@ -201,7 +201,18 @@ header{
   padding-bottom: 0;
 }
 
+/* trested */
 
+.trust .t-box {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 3rem;
+}
+.trust .t-box img{
+  margin: 1rem 1rem 1rem 0;
+}
 
 
 @media(max-width: 699px){
