@@ -186,6 +186,7 @@ header{
   justify-content: start;
   color: #000;
   padding: 1rem 1rem;
+  border-radius: 5rem;
 }
 .jobs .jlist.delete{
   display: none;
