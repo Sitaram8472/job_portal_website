@@ -294,6 +294,10 @@ footer{
   line-height: 35px;
   font-size: 1.1rem;
 }
+.f1-box{
+  font-size: 20px;
+}
+
 
 @media(max-width: 1200px){
   .obj-width{
