@@ -1,309 +1,285 @@
 <!DOCTYPE html>
 <html lang="en">
-
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>JSTACK - Search Jobs</title>
-        <link rel="stylesheet" href="style.css">
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
-    </head>
-
-    <body>
-        
-
-        <!-- Header  Section-->
-
-        <header> 
-            <div id="navbar" class="obj-width">
-
-                <a href="index.html"><img class="logo" src="images/logo.png" alt=""></a>
-
-                <ul id="menu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="/jobs/job.html">Browse Jobs</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <button id="w-btn">Join</button>
-
-                </ul>
-                    <!-- for media querie  -->
-                <i id="bar" class='bx bx-menu'></i>
-
-            </div>
-
-        </header>
-
-        <!-- Hero  Section-->
-
-        <section class="hero">
-
-            <div class="hero-box" obj-width>
-
-                <div class="h-left">
-                    <h2>Find the perfect freelance services for your business</h2>
-                    <p>
-                        Work with talented people at the most affordable price to get the most out of your time and cost 
-                    </p>
-
-                    <div class="search">
-
-                        <input type="text" placeholder="search your job here..">
-                        <a href="#" id="g-btn">search</a>
-
-                    </div>
-                </div>
-
-                <div class="h-right">
-                    <img src="images/hero1.PNG" alt="">
-                </div>
-            </div>
-        </section>
-
-
-        <!-- Features  Section-->
-        <section class="feature sec-space obj-width">
-            <h2>Need something done?</h2>
-            <p>Most viewed and all-time top-selling service</p>
-
-            <div class="fe-box">
-
-                <div>
-                    <img src="images/fe 1.png" alt="">
-                    <h3>Post a job</h3>
-                    <p>It's free and easy to post a job. simply fill in a title, description.</p>
-                </div>
-
-                <div>
-                    <img src="images/fe 2.png" alt="">
-                    <h3>Choose freelancers</h3>
-                    <p>It's free and easy to post a job. simply fill in a title, description.</p>
-                </div>
-
-                <div>
-                    <img src="images/fe 3.png" alt="">
-                    <h3>Pay safely</h3>
-                    <p>It's free and easy to post a job. simply fill in a title, description.</p>
-                </div>
-
-                <div>
-                    <img src="images/fe 4.png" alt="">
-                    <h3>we,re here a help</h3>
-                    <p>It's free and easy to post a job. simply fill in a title, description.</p>
-                </div>
-                
-            </div>
-        </section>
-
-
-        <!-- Job Listing  Section-->
-
-        <section class="jobs sec-space obj-width">
-            <h2>Jobs in demand</h2>
-            <p>Most viewed and all-time top-selling services</p>
-
-            <ul class="jobs-id">
-                <li data-target="all" class="active">Recent Jobs</li>
-                <li data-target="freelancer">Freelancer</li>
-                <li data-target="fullTime">Full Time</li>
-                <li data-target="partTime">Part Time</li>
-            </ul>
-
-            <div class="jobs-container">
-
-                <li data-item="fullTime"
-                 class="jlist">
-                    <img src="images/google.png" alt="">
-                    <h3>Web Developer</h3>
-                    <p>$900-1200/m</p>
-                    <span id="key">Full Time</span>
-                </li>
-
-                <li data-item="freelancer"
-                 class="jlist">
-                    <img src="images/uber.png" alt="">
-                    <h3>freelancer</h3>
-                    <p>$900-1200/m</p>
-                    <span id="key">Freelancer</span>
-                </li>
-
-                <li data-item="fullTime"
-                 class="jlist">
-                    <img src="images/facebook.png" alt="">
-                    <h3>Digital Marketing</h3>
-                    <p>$900-1200/m</p>
-                    <span id="key">Full Time</span>
-                </li>
-
-                <li data-item="partTime"
-                 class="jlist">
-                    <img src="images/yahoo.png" alt="">
-                    <h3>user Experiance</h3>
-                    <p>$900-1200/m</p>
-                    <span id="key">Part Time</span>
-                </li>
-
-                <li data-item="partTime"
-                class="jlist">
-                   <img src="images/linkedin.png" alt="">
-                   <h3>Business Associate</h3>
-                   <p>$900-1200/m</p>
-                   <span id="key">Part Time</span>
-               </li>
-
-            </div>
-
-         </section>
-
-
-        <!-- Brand  Section-->
-
-        <section class="trust sec-space obj- width">
-
-            <h2>Trusted by the world's best</h2>
-            <p>Most viewed and all-time top-selling services</p>
-            
-            <div class="t-box">
-                <img src="images/t1.png" alt="">
-                <img src="images/t2.png" alt="">
-                <img src="images/t3.png" alt="">
-                <img src="images/t4.png" alt="">
-                <img src="images/t5.png" alt="">
-                <img src="images/t6.png" alt="">
-            </div>
-
-        </section>
-
-
-        <!-- Team  Section-->
-
-        <section class="team sec-space obj- width">
-
-            <h2>Highest Rated Freelancers</h2>
-            <p>Most viewd and all-time top-selling services</p>
-
-            <div class="team-container">
-
-                <div class="f1-box">
-                    <img src="images/fl-1.png" alt="">
-                    <h3>Robert foxes</h3>
-
-                    <div class="skill">
-                        <span id="key">HTML</span>
-                        <span id="key">CSS</span>
-                        <span id="key">JS</span>
-                    </div>
-
-                    <a href="#" id="g-btn">View Profile</a>
-                </div>
-
-                <div class="f1-box">
-                    <img src="images/fl-2.png" alt="">
-                    <h3>Kristin wastson</h3>
-
-                    <div class="skill">
-                        <span id="key">HTML</span>
-                        <span id="key">CSS</span>
-                        <span id="key">JS</span>
-                    </div>
-
-                    <a href="#" id="g-btn">View Profile</a>
-                </div>
-
-                <div class="f1-box">
-                    <img src="images/fl-3.png" alt="">
-                    <h3>Darrell steward</h3>
-
-                    <div class="skill">
-                        <span id="key">HTML</span>
-                        <span id="key">CSS</span>
-                        <span id="key">JS</span>
-                    </div>
-
-                    <a href="#" id="g-btn">View Profile</a>
-                </div>
-
-                <div class="f1-box">
-                    <img src="images/fl-4.png" alt="">
-                    <h3>Theresa webb</h3>
-
-                    <div class="skill">
-                        <span id="key">HTML</span>
-                        <span id="key">CSS</span>
-                        <span id="key">JS</span>
-                    </div>
-
-                    <a href="#" id="g-btn">View Profile</a>
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- Footer  Section-->
-
-        <footer class="footer">
-
-            <div class="obj-width">
-
-                <div class="top">
-
-                   <div class="logo">
-                    <img src="images/logo.png" alt="">
-                    <p>Search your desired</p>
-
-                   </div> 
-
-                   <div>
-
-                    <a href=""><i class='bx bxl-facebook-square'></i></a>
-                    <a href=""><i class='bx bxl-instagram' ></i></a>
-                    <a href=""><i class='bx bxl-linkedin-square' ></i></a>
-                    <a href=""><i class='bx bxl-twitter' ></i></a>
-                   </div>
-
-                </div>
-
-               <div class="bottom">
-                <div>
-                    <h3>Project</h3>
-                    <a href="#">Change log</a>
-                    <a href="#">status</a>
-                    <a href="#">License</a>
-                    <a href="#">All Version</a>
-                </div>
-
-                <div>
-                    <h3>Community</h3>
-                    <a href="#">GitHub</a>
-                    <a href="#">Issues</a>
-                    <a href="#">Project</a>
-                    <a href="#">Twitter</a>
-                </div>
-
-                <div>
-                    <h3>Help</h3>
-                    <a href="#">Support</a>
-                    <a href="#">Troubleshooting</a>
-                    <a href="#">Contact Us</a>
-                </div>
-
-                <div>
-                    <h3>Others</h3>
-                    <a href="#">Term & Service</a>
-                    <a href="#">Privacy</a>
-                    <a href="#">License</a>                 
-                </div>
-               </div> 
-
-            </div>
-
-         </footer>
-
-        <!-- add js -->
-         <script src="script.js"></script>
-        <script src="toggle.js"></script>
-    </body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JSTACK - Search Jobs</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Header  Section-->
+
+    <header>
+      <div id="navbar" class="obj-width">
+        <a href="index.html"
+          ><img class="logo" src="images/logo.png" alt=""
+        /></a>
+
+        <ul id="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="/jobs/job.html">Browse Jobs</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <button id="w-btn">Join</button>
+        </ul>
+        <!-- for media querie  -->
+        <i id="bar" class="bx bx-menu"></i>
+      </div>
+    </header>
+
+    <!-- Hero  Section-->
+
+    <section class="hero">
+      <div class="hero-box" obj-width>
+        <div class="h-left">
+          <h2>Find the perfect freelance services for your business</h2>
+          <p>
+            Work with talented people at the most affordable price to get the
+            most out of your time and cost
+          </p>
+
+          <div class="search">
+            <input type="text" placeholder="search your job here.." />
+            <a href="#" id="g-btn">search</a>
+          </div>
+        </div>
+
+        <div class="h-right">
+          <img src="images/hero1.PNG" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Features  Section-->
+    <section class="feature sec-space obj-width">
+      <h2>Need something done?</h2>
+      <p>Most viewed and all-time top-selling service</p>
+
+      <div class="fe-box">
+        <div>
+          <img src="images/fe 1.png" alt="" />
+          <h3>Post a job</h3>
+          <p>
+            It's free and easy to post a job. simply fill in a title,
+            description.
+          </p>
+        </div>
+
+        <div>
+          <img src="images/fe 2.png" alt="" />
+          <h3>Choose freelancers</h3>
+          <p>
+            It's free and easy to post a job. simply fill in a title,
+            description.
+          </p>
+        </div>
+
+        <div>
+          <img src="images/fe 3.png" alt="" />
+          <h3>Pay safely</h3>
+          <p>
+            It's free and easy to post a job. simply fill in a title,
+            description.
+          </p>
+        </div>
+
+        <div>
+          <img src="images/fe 4.png" alt="" />
+          <h3>we,re here a help</h3>
+          <p>
+            It's free and easy to post a job. simply fill in a title,
+            description.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Job Listing  Section-->
+
+    <section class="jobs sec-space obj-width">
+      <h2>Jobs in demand</h2>
+      <p>Most viewed and all-time top-selling services</p>
+
+      <ul class="jobs-id">
+        <li data-target="all" class="active">Recent Jobs</li>
+        <li data-target="freelancer">Freelancer</li>
+        <li data-target="fullTime">Full Time</li>
+        <li data-target="partTime">Part Time</li>
+      </ul>
+
+      <div class="jobs-container">
+        <li data-item="fullTime" class="jlist">
+          <img src="images/google.png" alt="" />
+          <h3>Web Developer</h3>
+          <p>$900-1200/m</p>
+          <span id="key">Full Time</span>
+        </li>
+
+        <li data-item="freelancer" class="jlist">
+          <img src="images/uber.png" alt="" />
+          <h3>freelancer</h3>
+          <p>$900-1200/m</p>
+          <span id="key">Freelancer</span>
+        </li>
+
+        <li data-item="fullTime" class="jlist">
+          <img src="images/facebook.png" alt="" />
+          <h3>Digital Marketing</h3>
+          <p>$900-1200/m</p>
+          <span id="key">Full Time</span>
+        </li>
+
+        <li data-item="partTime" class="jlist">
+          <img src="images/yahoo.png" alt="" />
+          <h3>user Experiance</h3>
+          <p>$900-1200/m</p>
+          <span id="key">Part Time</span>
+        </li>
+
+        <li data-item="partTime" class="jlist">
+          <img src="images/linkedin.png" alt="" />
+          <h3>Business Associate</h3>
+          <p>$900-1200/m</p>
+          <span id="key">Part Time</span>
+        </li>
+      </div>
+    </section>
+
+    <!-- Brand  Section-->
+
+    <section class="trust sec-space obj- width">
+      <h2>Trusted by the world's best</h2>
+      <p>Most viewed and all-time top-selling services</p>
+
+      <div class="t-box">
+        <img src="images/t1.png" alt="" />
+        <img src="images/t2.png" alt="" />
+        <img src="images/t3.png" alt="" />
+        <img src="images/t4.png" alt="" />
+        <img src="images/t5.png" alt="" />
+        <img src="images/t6.png" alt="" />
+      </div>
+    </section>
+
+    <!-- Team  Section-->
+
+    <section class="team sec-space obj- width">
+      <h2>Highest Rated Freelancers</h2>
+      <p>Most viewd and all-time top-selling services</p>
+
+      <div class="team-container">
+        <div class="f1-box">
+          <img src="images/fl-1.png" alt="" />
+          <h3>Robert foxes</h3>
+
+          <div class="skill">
+            <span id="key">HTML</span>
+            <span id="key">CSS</span>
+            <span id="key">JS</span>
+          </div>
+
+          <a href="#" id="g-btn">View Profile</a>
+        </div>
+
+        <div class="f1-box">
+          <img src="images/fl-2.png" alt="" />
+          <h3>Kristin wastson</h3>
+
+          <div class="skill">
+            <span id="key">HTML</span>
+            <span id="key">CSS</span>
+            <span id="key">JS</span>
+          </div>
+
+          <a href="#" id="g-btn">View Profile</a>
+        </div>
+
+        <div class="f1-box">
+          <img src="images/fl-3.png" alt="" />
+          <h3>Darrell steward</h3>
+
+          <div class="skill">
+            <span id="key">HTML</span>
+            <span id="key">CSS</span>
+            <span id="key">JS</span>
+          </div>
+
+          <a href="#" id="g-btn">View Profile</a>
+        </div>
+
+        <div class="f1-box">
+          <img src="images/fl-4.png" alt="" />
+          <h3>Theresa webb</h3>
+
+          <div class="skill">
+            <span id="key">HTML</span>
+            <span id="key">CSS</span>
+            <span id="key">JS</span>
+          </div>
+
+          <a href="#" id="g-btn">View Profile</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer  Section-->
+
+    <footer class="footer">
+      <div class="obj-width">
+        <div class="top">
+          <div class="logo">
+            <img src="images/logo.png" alt="" />
+            <p>Search your desired</p>
+          </div>
+
+          <div>
+            <a href=""><i class="bx bxl-facebook-square icon"></i></a>
+            <a href=""><i class="bx bxl-instagram icon"></i></a>
+            <a href=""><i class="bx bxl-linkedin-square icon"></i></a>
+            <a href=""><i class="bx bxl-twitter icon"></i></a>
+          </div>
+        </div>
+
+        <div class="bottom">
+          <div>
+            <h3>Project</h3>
+            <a href="#">Change log</a>
+            <a href="#">status</a>
+            <a href="#">License</a>
+            <a href="#">All Version</a>
+          </div>
+
+          <div>
+            <h3>Community</h3>
+            <a href="#">GitHub</a>
+            <a href="#">Issues</a>
+            <a href="#">Project</a>
+            <a href="#">Twitter</a>
+          </div>
+
+          <div>
+            <h3>Help</h3>
+            <a href="#">Support</a>
+            <a href="#">Troubleshooting</a>
+            <a href="#">Contact Us</a>
+          </div>
+
+          <div>
+            <h3>Others</h3>
+            <a href="#">Term & Service</a>
+            <a href="#">Privacy</a>
+            <a href="#">License</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- add js -->
+    <script src="script.js"></script>
+    <script src="toggle.js"></script>
+  </body>
 </html>

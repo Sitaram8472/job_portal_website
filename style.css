@@ -268,6 +268,9 @@ footer{
   width: 170px;
   margin-bottom: 1rem;
 }
+.icon:hover{
+  color: blue;
+}
 .top i{
   color: #fff;
   font-size: 2rem;
