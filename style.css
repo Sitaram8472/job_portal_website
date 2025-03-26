@@ -291,11 +291,15 @@ footer{
 .bottom a{
   text-decoration: none;
   color: #fff;
-  line-height: 35px;
+  line-height: 30px;
   font-size: 1.1rem;
+  font-size: 15px;
 }
-.f1-box{
+/* .f1-box{
   font-size: 20px;
+} */
+.bottom h3{
+  font-weight: bold;
 }
 
 
