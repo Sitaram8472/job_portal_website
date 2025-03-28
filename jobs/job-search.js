@@ -1,5 +1,13 @@
 const catergories = Array.from(jcategory);
 
+document.getElementById("searchbar").addEventListener("keyup", (e) =>{
+  const searchdata = e.target.value.toLowerCase()
+  const filterdate = catergories.filter((Item) =>
+    Item.title.toLowerCase().includes(searchdata)
+  );
+  displayitem(filterdate);
+});
+
 const displayitem = (Items) =>{
   const rootelement = document.getElementById("root");
     rootelement.innerHTML = "";
