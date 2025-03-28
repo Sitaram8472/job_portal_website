@@ -302,6 +302,29 @@ footer{
   font-weight: bold;
 }
 
+/* broser jobs */
+.jobs form{
+  margin-top: 3rem;
+  width: 100%;
+  border: 1px solid #51a995;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* box-shadow: 2px rgba(198, 47, 47, 0.1); */
+}
+.jobs form i{
+  padding-left: 1rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.jobs form input{
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 1rem 0.5rem;
+  font-size: 1.1rem;
+}
 
 @media(max-width: 1200px){
   .obj-width{
