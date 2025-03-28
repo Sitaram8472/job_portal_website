@@ -23,6 +23,11 @@ const displayitem = (Items) =>{
                     <span id="key">${avg}</span>
                     `;
                     rootelement.appendChild(jlist);
+
+      jlist.addEventListener("click", () =>{
+        window.location.href = `jobsdetail.html?id=${index}`;
+      });
+
     });
 };
 displayitem(catergories);

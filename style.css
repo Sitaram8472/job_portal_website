@@ -265,7 +265,7 @@ footer{
   flex-wrap: wrap;
 }
 .top .logo{
-  width: 170px;
+  width: 160px;
   margin-bottom: 1rem;
 }
 .icon:hover{
@@ -322,9 +322,40 @@ footer{
   width: 100%;
   border: none;
   outline: none;
-  padding: 1rem 0.5rem;
+  padding: 0.5rem 0.5rem;
   font-size: 1.1rem;
 }
+
+
+/* jobs datils */
+.job-header{
+  /* height: 60px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8fcfa;
+  border: 1px solid #51a995;
+  border-radius: 38px;
+  padding: 1rem;
+}
+
+.job-header img{
+  width: 60px;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 15px;
+  margin-right: 2rem;
+
+}
+.job-img-row{
+  display: flex;
+  align-items: center;
+}
+
+.job-description p {
+  padding-bottom: 2rem;
+}
+
 
 @media(max-width: 1200px){
   .obj-width{
@@ -436,6 +467,22 @@ footer{
     width: 50%;
     margin-bottom: 50px;
   }
+  /* job dtails */
 
-  
+  .job-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 15px;
+    padding: 1rem;
+  }
+  .job-img-row{
+    margin-bottom: 1rem;
+  }
+  .job-header img{
+    padding: 0rem;
+    border-radius: 10px;
+  }
+
 }
